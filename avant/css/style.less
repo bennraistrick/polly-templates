@@ -1,0 +1,121 @@
+/**
+* Polly Theme: 	Avant
+* Auth:			The Grid
+* Auth Date:	2014
+**/
+
+@import "properties/color.less";
+@import "properties/grid.less";
+//@import "properties/shape.less";
+@import "properties/type.less";
+@import "properties/images.less";
+
+@primary-color: #000;
+
+/*----------* 
+* Clear fix
+*-----------*/
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+
+
+body{
+
+	font-family:	@typeface2;
+	font-size: 		18px;
+	font-weight: 	@weight-content;
+	line-height: 	@base-content;
+	background: 	@primary-color;
+	padding:0;
+	margin:0;
+	//font-family:@typeface2;
+
+}
+
+
+
+.header-1 {
+
+	width:100%;
+	height: 768px;
+	display: table;
+	
+	.image-full();
+
+	.title-1{
+
+		display: 			table-cell;
+		vertical-align: 	middle;
+		text-align: 		center;
+		
+		z-index: 2;
+		h1 {
+			font: 			@weight-hero @size-hero @typeface1 ;
+			color: 			@light-dark-hero;
+			line-height: 	@base-hero;
+		}
+
+		h2 {
+			font:			@weight-title @size-subheading @typeface2 ;
+			color: 			@light-dark-sub;
+			line-height: 	@base-title;
+		}
+	}
+	
+}
+
+.unit-1{
+
+	background:				@cell-white;
+	padding: 5%;
+
+	article{
+
+		overflow: 			hidden;
+		background:			@cell-highlight;
+
+		.insert-1{
+
+			padding: 		8%;
+			overflow: 		hidden;
+			text-align: 	center;
+
+			h2{
+				font:			@weight-title @size-section-title @typeface2;
+				line-height:	@base-section-title;
+			}
+
+			hr{
+				border-top:		1px solid #f2f2f2;
+				margin: 		@base-section-title 0;
+			}
+			.col-md-3{
+
+				//Hack because bootstrap is crap
+				text-align: 	left;
+				padding:		0 4.166%;
+
+				h4{
+
+					font:		@weight-heading @size-heading @typeface2;
+				}
+				p{
+					color:		@dark-light-sub;
+				}
+
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+
+
+/*-----------------
+* Full with images
+*-----------------*/
+
+//Set image to cover
+
+.background-cover(@backgroundcover:cover){
+
+		background-size: 50% 50%;
+	  -webkit-background-size: @backgroundcover;
+	  -moz-background-size: @backgroundcover;
+	  -o-background-size: @backgroundcover;
+	  background-size: @backgroundcover;
+	  background-repeat: no-repeat;
+}
+
+.image-full(){
+	
+  	background-image:url(../molecules/photo/background1.jpg);
+  	
+  	opacity:0.9;
+	background-position: center center;
+
+	.background-cover();
+
+}
