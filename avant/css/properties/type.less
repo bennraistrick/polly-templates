@@ -66,5 +66,39 @@
 @base-meta:				1.167rem;
 
 
+/*------------*
+* Multicolumn
+*-------------*/
 
+.multicolumn(@typecolumns:2, @typegap:20px){
+	-webkit-column-count:			@typecolumns;
+	-moz-column-count:				@typecolumns;
+	column-count:					@typecolumns;
 
+	-webkit-column-gap:				@typegap;
+	-moz-column-gap:				@typegap;
+	column-gap:						@typegap;
+
+	column-fill: 					balance;
+    -moz-column-fill: 				balance;
+    -webkit-column-fill: 			balance;
+
+    p:nth-last-child(3),
+	p:nth-last-child(3) ~ p {
+	    padding-top:20px;
+	}
+
+}
+
+/*------------*
+* Molecules
+*-------------*/
+
+.attribute-light{
+	text-transform: 				uppercase;
+	color:							@dark-light-meta;
+	font-size:						@size-meta;
+	margin:							2.5rem 0;
+	display:						block;
+	letter-spacing: 				0.167rem;
+}

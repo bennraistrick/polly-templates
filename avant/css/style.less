@@ -3,11 +3,11 @@
 * Auth:			The Grid
 * Auth Date:	2014
 **/
-
+@import "properties/default.less";
 @import "properties/color.less";
-@import "properties/grid.less";
-//@import "properties/shape.less";
 @import "properties/type.less";
+@import "properties/grid.less";
+@import "properties/shape.less";
 @import "properties/images.less";
 
 @primary-color: #000;
@@ -26,22 +26,6 @@
 }
 .clearfix:after {
   clear: both;
-}
-
-
-
-
-body{
-
-	font-family:	@typeface2;
-	font-size: 		18px;
-	font-weight: 	@weight-content;
-	line-height: 	@base-content;
-	background: 	@primary-color;
-	padding:0;
-	margin:0;
-	//font-family:@typeface2;
-
 }
 
 
@@ -75,6 +59,8 @@ body{
 	}
 	
 }
+
+// Multicell - Unit-1
 
 .unit-1{
 
@@ -115,6 +101,59 @@ body{
 					color:		@dark-light-sub;
 				}
 
+			}
+		}
+	}
+}
+
+// Multicell Chapter-1
+
+.chapters{
+
+	background:				@cell-white;
+	padding:0 0 5% 0;
+
+	article{
+
+		overflow: 			hidden;
+
+		.chapter-1{
+
+			padding: 		0 8%;
+			overflow: 		hidden;
+			text-align: 	center;
+
+			h2{
+				font:			@weight-title @size-section-title @typeface2;
+				line-height:	@base-section-title;
+			}
+
+			hr{
+				border-top:		1px solid #f2f2f2;
+				margin: 		@base-section-title 0;
+			}
+			
+
+			// Single cell Profile-1
+
+			.profile-1{
+
+				.avatar{
+					.circular(80px, 80px, 80px);
+					background: url(../molecules/photo/avatar.jpg) no-repeat center center;
+					background-size: 100%;
+					margin: 2.5rem auto;
+				}
+
+				
+
+			}
+
+			// Single cell Chapter multicolumn
+
+			.chapter-multicolumn{
+
+				.multicolumn(2, @grid-gutter-width);
 			}
 		}
 	}
