@@ -82,7 +82,7 @@ body {
     width: 750px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .container {
     width: 970px;
   }
@@ -421,7 +421,7 @@ body {
     margin-left: 0%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
@@ -737,6 +737,12 @@ body {
     margin-left: 0%;
   }
 }
+.quoteicon {
+  font-size: 12rem;
+  font-family: clavo, helvetica, sans-serif;
+  line-height: 0rem;
+  color: #22c2ba;
+}
 /*-----------------
 * Full with images
 *-----------------*/
@@ -900,4 +906,72 @@ body {
   font: 200 2.667rem clavo, helvetica, sans-serif;
   line-height: 3.333rem;
   color: #fafafa;
+}
+.gallery-1 {
+  margin: 3.333rem 0;
+}
+.gallery-1 .title {
+  text-align: center;
+}
+.gallery-1 .title h2 {
+  font: 100 2rem museo-sans, helvetica, sans-serif;
+  line-height: 2.5rem;
+  color: #ffffff;
+}
+.gallery-1 .masonary {
+  padding: 0;
+  -moz-column-count: 3;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 10px;
+  column-count: 3;
+  column-gap: 10px;
+  width: 100% ;
+}
+.gallery-1 .masonary li {
+  display: inline-block;
+  width: 100;
+  background: #000;
+  margin-bottom: 5px;
+}
+.gallery-1 .masonary li img {
+  float: left;
+  position: relative;
+  opacity: 0.3;
+}
+.gallery-1 .masonary li img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.gallery-1 .masonary li .excerpt {
+  float: left;
+  position: relative;
+  margin-top: -150px;
+  margin: -150px 0 auto;
+  width: 281px;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+}
+.gallery-1 .masonary li .excerpt h3 {
+  font: 300 1.167rem clavo, helvetica, sans-serif;
+  line-height: 1.167rem;
+}
+.gallery-1 .masonary li .excerpt p {
+  font: 300 0.889rem museo-sans, helvetica, sans-serif;
+  line-height: 1.667rem;
+}
+.gallery-1 .masonary .pink {
+  background: #ef3ed8;
+  opacity: 0.8;
+}
+.gallery-1 .masonary .green {
+  background: #23c1bb;
+  opacity: 0.8;
+}
+.gallery-1 .masonary a {
+  display: inline-block;
+  /* Display inline-block, and absolutely NO FLOATS! */
+  margin-bottom: 20px;
+  width: 100%;
 }

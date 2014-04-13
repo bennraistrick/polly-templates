@@ -7,15 +7,15 @@
 		<title>The Grid _ Avant Theme</title>
 
 		<!-- Bootstrap -->
-		<!--<link rel="stylesheet/less" type="text/css" href="css/style.less">-->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet/less" type="text/css" href="css/style.less">
+		<!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
 
 		<!-- Typeface -->
 		<script type="text/javascript" src="//use.typekit.net/hpv8izz.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 		<!-- LESS -->
-		<!--<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>-->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>
 
 	</head>
 	<body>

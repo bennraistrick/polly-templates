@@ -10,6 +10,9 @@
 @import "properties/shape.less";
 @import "properties/images.less";
 
+
+
+
 @primary-color: #000;
 
 /*----------* 
@@ -36,7 +39,7 @@
 	height: 768px;
 	display: table;
 	
-	.image-full("../molecules/photo/background1.jpg");
+	.img-full("../molecules/photo/background1.jpg");
 
 	.title-1{
 
@@ -169,7 +172,7 @@
 	min-height: 550px;
 	display: table;
 	
-	.image-full("../molecules/photo/background2.jpg");
+	.img-full("../molecules/photo/background2.jpg");
 
 	.block-quote-1{
 
@@ -187,5 +190,91 @@
 			color: @light-dark-sub;
 		}
 	}
-	
+}
+
+
+.gallery-1 {
+
+
+		margin: 3.333rem 0;
+
+		.title{
+
+			text-align: center;
+
+			h2{
+				font:			@weight-title @size-section-title @typeface2;
+				line-height:	@base-section-title;
+				color: 			@light-dark-hero;
+			}
+			
+		}
+
+		.masonary{
+
+			padding:0;
+			-moz-column-count: 3;
+		    -moz-column-gap: 10px;
+		    -webkit-column-count: 3;
+		    -webkit-column-gap: 10px;
+		    column-count: 3;
+		    column-gap: 10px;
+		    width:100% ;
+
+			li{
+				display: inline-block;
+				width: 100;
+				background:#000;
+				margin-bottom: 5px;
+
+				img{
+					float: left;
+					position: relative;
+					opacity: 0.3;
+				}
+				img:hover{
+					opacity:1;
+					cursor:pointer;
+				}
+
+				.excerpt{
+					float: left;
+					position: relative;
+					margin-top:-150px;
+					margin: -150px 0 auto;
+					width: 281px;
+					padding:15px;
+					color: #fff;
+					text-align: center;
+
+					h3{
+						font:@weight-subtitle @size-subheading @typeface1;
+						line-height: @base-subtitle
+					}
+					p{
+						font:@weight-credit @size-credit @typeface2;
+						line-height: @base-content;
+					}
+					
+				}
+				
+			}
+			.pink{
+				background: @cell-pink;
+				opacity: 0.8;
+			}
+			.green{
+				background: @cell-green;
+				opacity: 0.8;
+			}
+
+			 
+
+		    a{
+			    display: inline-block; /* Display inline-block, and absolutely NO FLOATS! */
+			    margin-bottom: 20px;
+			    width: 100%; 
+			}
+		}
+
 }
