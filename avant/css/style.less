@@ -36,7 +36,7 @@
 	height: 768px;
 	display: table;
 	
-	.image-full();
+	.image-full("../molecules/photo/background1.jpg");
 
 	.title-1{
 
@@ -62,7 +62,7 @@
 
 // Multicell - Unit-1
 
-.unit-1{
+.unit-intros{
 
 	background:				@cell-white;
 	padding: 5%;
@@ -119,9 +119,9 @@
 
 		.chapter-1{
 
-			padding: 		0 8%;
+			padding: 		0 8% 8%;
 			overflow: 		hidden;
-			text-align: 	center;
+			text-align: 	left;
 
 			h2{
 				font:			@weight-title @size-section-title @typeface2;
@@ -137,6 +137,8 @@
 			// Single cell Profile-1
 
 			.profile-1{
+
+				text-align: center;
 
 				.avatar{
 					.circular(80px, 80px, 80px);
@@ -157,4 +159,33 @@
 			}
 		}
 	}
+}
+
+
+// Interlude
+.interlude-1 {
+
+	width:100%;
+	min-height: 550px;
+	display: table;
+	
+	.image-full("../molecules/photo/background2.jpg");
+
+	.block-quote-1{
+
+		display: 			table-cell;
+		vertical-align: 	middle;
+		text-align: 		center;
+		
+		z-index: 2;
+
+		padding-top: 12%;
+
+		p{
+			font:@weight-quote @size-quote @typeface1 ;
+			line-height: @base-quote;
+			color: @light-dark-sub;
+		}
+	}
+	
 }

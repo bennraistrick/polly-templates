@@ -45,8 +45,8 @@
 @weight-content:		300;
 @weight-subheading:		300;
 @weight-credit:			300;
-@weight-attribute:		300;
-@weight-meta:			300;
+@weight-attribute:		700;
+@weight-meta:			700;
 
 
 /*------------*
@@ -54,7 +54,7 @@
 *-------------*/
 
 @base-hero:				4.167rem;
-@base-quote:			1.167rem;
+@base-quote:			3.333rem;
 @base-title:			1.167rem;
 @base-section-title:	2.5rem;
 @base-subtitle:			1.167rem;
@@ -97,7 +97,15 @@
 .attribute-light{
 	text-transform: 				uppercase;
 	color:							@dark-light-meta;
-	font-size:						@size-meta;
+	font:							@weight-attribute @size-meta @typeface2;
+	margin:							2.5rem 0;
+	display:						block;
+	letter-spacing: 				0.167rem;
+}
+.attribute-color{
+	text-transform: 				uppercase;
+	color:							@color-light-meta;
+	font:							@weight-attribute @size-meta @typeface2;
 	margin:							2.5rem 0;
 	display:						block;
 	letter-spacing: 				0.167rem;

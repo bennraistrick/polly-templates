@@ -7,14 +7,15 @@
 		<title>The Grid _ Avant Theme</title>
 
 		<!-- Bootstrap -->
-		<link rel="stylesheet/less" type="text/css" href="css/style.less">
+		<!--<link rel="stylesheet/less" type="text/css" href="css/style.less">-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<!-- Typeface -->
 		<script type="text/javascript" src="//use.typekit.net/hpv8izz.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 		<!-- LESS -->
-		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>
+		<!--<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>-->
 
 	</head>
 	<body>
@@ -29,7 +30,7 @@
 		<!-- end header-1 -->
 		
 		<!-- multi-cell unit-1 -->
-		<section class="unit-1 container-fluid">
+		<section class="unit-intros container-fluid">
 			<article>
 				
 				<!-- cell intro-1 -->	
@@ -71,7 +72,7 @@
 		<section class="chapters container-fluid">
 			<article>
 				
-				<!-- cell intro-1 -->	
+				<!-- cell chapter-1 -->	
 				<div class="chapter-1">
 
 					<!-- component profile -->
@@ -84,7 +85,7 @@
 					<div class="clearfix"></div>
 					<!-- component words -->
 					<div class="row">
-						<div class="col-md-8 col-md-offset-2 chapter-multicolumn">
+						<div class="col-md-10 col-md-offset-1 chapter-multicolumn">
 							<p><strong>Porta dis sociis sit etiam penatibus etiam odio, dolor pulvinar hac odio integer integer egestas lectus? Quis, pulvinar, aenean hac sed vel, etiam est in amet rhoncus ac dictumst mus pulvinar habitasse, velit pulvinar eros sociis urna ac ultricies urna pulvinar etiam a pid penatibus urna mauris ac? Integer ultricies et elit pid proin aenean? Magna, sit tincidunt risus cras porta porttitor porttitor,</strong></p>
 
 							<p>arcu in aliquam? Mattis porttitor massa sed? Urna non, nisi magna nec, platea! Dictumst augue? Augue sociis sociis auctor mauris, est nunc facilisis mattis lacus, penatibus dapibus adipiscing, ultricies dolor arcu sed, nunc natoque vut augue, proin integer cursus! Odio magnis. Nisi ut elit adipiscing. Lundium mattis! Odio rhoncus, est ut. In elementum sagittis purus tempor diam.</p>
@@ -100,7 +101,22 @@
 				
 			</article>
 		</section>
-		<!-- end unit-1 -->
+		<!-- end chapter-1 -->
+
+		<!-- Multicell Interlude-1 -->
+		<section class="interlude-1">
+
+			<article>
+
+				<div class="col-md-8 col-md-offset-2 block-quote-1">
+					<p>attis porttitor massa sed? Urna non, nisi magna nec, platea!</p>
+					<span class="attribute-color">Tortor Mattis Risus</span>
+				</div>
+
+			</article>
+
+		</section>
+		<!-- end Interlude-1 -->
 		
 		<footer>
 		</footer>
