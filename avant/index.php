@@ -7,15 +7,15 @@
 		<title>The Grid _ Avant Theme</title>
 
 		<!-- Bootstrap -->
-		<!--<link rel="stylesheet/less" type="text/css" href="css/style.less">-->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet/less" type="text/css" href="css/style.less">
+		<!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
 
 		<!-- Typeface -->
 		<script type="text/javascript" src="//use.typekit.net/hpv8izz.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 		<!-- LESS -->
-		<!--<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>-->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>
 
 	</head>
 	<body>
@@ -135,42 +135,54 @@
 
 					<ul class="masonary">
 						<li class="pink">
-							<img src="molecules/gallery/1.jpg" width="100%">
+							<div class="image">
+								<img src="molecules/gallery/1.jpg" width="100%">
+							</div>
 							<div class="excerpt">
 								<h3>Sit Inceptos</h3>
 								<p>Vivamus sagittis lacus vel augue laoreet retrum faicibus dolor auctor...</p>
 							</div>
 						</li>
 						<li class="green">
-							<img src="molecules/gallery/2.jpg" width="100%">
+							<div class="image">
+								<img src="molecules/gallery/2.jpg" width="100%">
+							</div>
 							<div class="excerpt">
 								<h3>Sit Inceptos</h3>
 								<p>Vivamus sagittis lacus vel augue laoreet retrum faicibus dolor auctor...</p>
 							</div>
 						</li>
 						<li class="green">
-							<img src="molecules/gallery/3.jpg" width="100%">
+							<div class="image">
+								<img src="molecules/gallery/3.jpg" width="100%">
+							</div>
 							<div class="excerpt">
 								<h3>Sit Inceptos</h3>
 								<p>Vivamus sagittis lacus vel augue laoreet retrum faicibus dolor auctor...</p>
 							</div>
 						</li>
 						<li class="pink">
-							<img src="molecules/gallery/8.jpg" width="100%">
+							<div class="image">
+								<img src="molecules/gallery/8.jpg" width="100%">
+							</div>
 							<div class="excerpt">
 								<h3>Sit Inceptos</h3>
 								<p>Vivamus sagittis lacus vel augue laoreet retrum faicibus dolor auctor...</p>
 							</div>
 						</li>
 						<li class="pink">
-							<img src="molecules/gallery/5.jpg" width="100%">
+							<div class="image">
+								<img src="molecules/gallery/5.jpg" width="100%">
+							</div>
 							<div class="excerpt">
 								<h3>Sit Inceptos</h3>
 								<p>Vivamus sagittis lacus vel augue laoreet retrum faicibus dolor auctor...</p>
 							</div>
 						</li>
 						<li class="green">
-							<img src="molecules/gallery/6.jpg" width="100%">
+							<div class="image">
+								<img src="molecules/gallery/6.jpg" width="100%">
+							</div>
 							<div class="excerpt">
 								<h3>Sit Inceptos</h3>
 								<p>Vivamus sagittis lacus vel augue laoreet retrum faicibus dolor auctor...</p>
@@ -187,6 +199,8 @@
 		
 		<footer>
 		</footer>
+
+		<script type="text/javascript" href="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 		
 		<script type="text/javascript">
 			//less.env = 'development';

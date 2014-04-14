@@ -31,3 +31,16 @@
 	.background-cover();
 
 }
+
+.masonry-layout(@columncount: 3, @columngap: 10px, @columnwidth: 100%){
+
+	padding:					0;
+	-moz-column-count: 			@columncount;
+	-moz-column-gap: 			@columngap;
+    -webkit-column-count: 		@columncount;
+    -webkit-column-gap: 		@columngap;
+    column-count: 				@columncount;
+    column-gap: 				@columngap;
+    width:						@columnwidth ;
+
+}
