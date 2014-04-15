@@ -86,4 +86,4 @@ gallery-1 : includes - image - title:heading, words;
 	</article>
 
 </section>
-		<!-- end Interlude-1 -->
+		<!-- end Gallery-1 -->

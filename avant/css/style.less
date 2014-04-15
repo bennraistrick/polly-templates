@@ -46,6 +46,7 @@
 		width: 		100%;
 		height: 	100%;
 		background: rgba(0,0,0, 0.5);
+		display: table;
 	
 		
 
@@ -150,6 +151,10 @@
 				line-height: 	@base-hero;
 			}
 
+			.attribute-light{
+				color: @light-dark-meta;
+			}
+
 
 			.chapter-multicolumn{
 
@@ -180,6 +185,8 @@
 // Multicell - Unit-1
 
 .unit-intros{
+
+	clear: both;
 
 	background:				@cell-white;
 	padding: 5%;
@@ -312,6 +319,7 @@
 
 
 		margin: 3.333rem 0;
+		overflow: hidden;
 
 		.title{
 
@@ -446,17 +454,68 @@
 	
 
 }
+.list-feed{
+	background:@cell-white;
+	border-top: 1px solid @light-border;
+	overflow: hidden;
+
+	.list-item-image{
+		border-bottom: 1px solid @light-border;
+		overflow: hidden;
+		padding: 2.5rem 0;
+
+		h3{
+			font:			@weight-subtitle @size-heading @typeface1;
+			line-height: 	@base-section-title;
+			color:			@dark-light-hero;
+			margin: 0;
+		}
+		p{
+			font:			@weight-credit @size-credit @typeface2;
+			line-height: 	@base-words;
+			color:			@dark-light-words;			
+		}
+		.attribute-light{
+			color:			@dark-light-words;
+			margin:1rem 0;
+			font-size: 		@size-meta;
+		}
+	}
+	.list-item-words{
+		border-bottom: 1px solid @light-border;
+		overflow: hidden;
+		padding: 2.5rem 0;
+
+		h3{
+			font:			@weight-subtitle @size-heading @typeface1;
+			line-height: 	@base-section-title;
+			color:			@dark-light-hero;
+			margin: 0;
+		}
+		p{
+			font:			@weight-credit @size-credit @typeface2;
+			line-height: 	@base-words;
+			color:			@dark-light-words;
+			margin: 		0;		
+		}
+		.attribute-light{
+			color:			@dark-light-words;
+			margin:1rem 0;
+			font-size: 		@size-meta;
+		}
+	}
+}
 
 // Filters
 
-.filter{
+.filter-1{
 
 	
 	clear: both;
 
 	background: @cell-white;
 
-	.filter-1{
+	.filter{
 
 		margin:				2rem 0 2.0rem 0;
 

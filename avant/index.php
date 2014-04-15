@@ -47,13 +47,13 @@
 				</div>
 			</div>
 		</section>
-		<!-- end header-1 -->
+		<!-- end header-3 -->
 		
 
 		<!-- filter -->
-		<section class="filter container-fluid">
+		<section class="filter-1 container-fluid">
 			<div class="col-md-8 col-md-offset-2">
-				<ul class="filter-1">
+				<ul class="filter">
 					<li><a href="#" class="active">recently added</a></li>
 					<li><a href="#">recently added</a></li>
 					<li><a href="#">recently added</a></li>
@@ -61,91 +61,46 @@
 			</div>
 		</section>
 
-		<section class="grid-feed container-fluid">
+		<section class="list-feed container-fluid">
 
-			<!-- News feed -->
 			<article>
-				<div class="col-md-10 col-md-offset-1">
 
-					<div class="list-item col-md-3">
+				<div class="list-item-image">
 
-						<img src="molecules/photo/newsfeed/1.jpg" width="100%">
-						<h4>Adipiscing Egestas</h4>
-						<p>Ridiculus sociis scelerisque ut est porta ut, scelerisque nascetur facilisis.</p>
-						<span class="attribute-light">by author in <a href="">source</a></span>
-
+					<div class="col-md-8 col-md-offset-2">
+						<div class="col-md-5">
+							
+							<h3>Tristique Malesuada Etiam</h3>
+							<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit... </p>
+							<span class="attribute-light">By author in <a href="">source</a></span>
+						</div>
+						<div class="col-md-5">
+							<img src="molecules/photo/newsfeed/3.jpg" width="100%">
+						</div>
+						
 					</div>
-					<div class="list-item col-md-3">
-
-						<img src="molecules/photo/newsfeed/2.jpg" width="100%">
-						<h4>Adipiscing Egestas</h4>
-						<p>Ridiculus sociis scelerisque ut est porta ut, scelerisque nascetur facilisis.</p>
-						<span class="attribute-light">by author in <a href="">source</a></span>
-
-					</div>
-					<div class="list-item col-md-3">
-
-						<img src="molecules/photo/newsfeed/1.jpg" width="100%">
-						<h4>Adipiscing Egestas</h4>
-						<p>Ridiculus sociis scelerisque ut est porta ut, scelerisque nascetur facilisis.</p>
-						<span class="attribute-light">by author in <a href="">source</a></span>
-
-					</div>
-					<div class="list-item col-md-3 gridrow">
-
-						<img src="molecules/photo/newsfeed/2.jpg" width="100%">
-						<h4>Adipiscing Egestas</h4>
-						<p>Ridiculus sociis scelerisque ut est porta ut, scelerisque nascetur facilisis.</p>
-						<span class="attribute-light">by author in <a href="">source</a></span>
-
-					</div>
-					<div class="list-item col-md-3 gridrow">
-
-						<img src="molecules/photo/newsfeed/1.jpg" width="100%">
-						<h4>Adipiscing Egestas</h4>
-						<p>Ridiculus sociis scelerisque ut est porta ut, scelerisque nascetur facilisis.</p>
-						<span class="attribute-light">by author in <a href="">source</a></span>
-
-					</div>
-					<div class="list-item col-md-3 gridrow">
-
-						<img src="molecules/photo/newsfeed/2.jpg" width="100%">
-						<h4>Adipiscing Egestas</h4>
-						<p>Ridiculus sociis scelerisque ut est porta ut, scelerisque nascetur facilisis.</p>
-						<span class="attribute-light">by author in <a href="">source</a></span>
-
-					</div>
-					<div class="list-item col-md-3 gridrow">
-
-						<img src="molecules/photo/newsfeed/2.jpg" width="100%">
-						<h4>Adipiscing Egestas</h4>
-						<p>Ridiculus sociis scelerisque ut est porta ut, scelerisque nascetur facilisis.</p>
-						<span class="attribute-light">by author in <a href="">source</a></span>
-
-					</div>
-					<div class="list-item col-md-3 gridrow">
-
-						<img src="molecules/photo/newsfeed/1.jpg" width="100%">
-						<h4>Adipiscing Egestas</h4>
-						<p>Ridiculus sociis scelerisque ut est porta ut, scelerisque nascetur facilisis.</p>
-						<span class="attribute-light">by author in <a href="">source</a></span>
-
-					</div>
-					<div class="list-item col-md-3 gridrow">
-
-						<img src="molecules/photo/newsfeed/2.jpg" width="100%">
-						<h4>Adipiscing Egestas</h4>
-						<p>Ridiculus sociis scelerisque ut est porta ut, scelerisque nascetur facilisis.</p>
-						<span class="attribute-light">by author in <a href="">source</a></span>
-
-					</div>
-
 				</div>
-			</article>
-			<div class="load"><span class="attribute-color">view more</span></div>
-		</section>
-		<!-- End news feed -->
+				<div class="list-item-words">
 
+					<div class="col-md-8 col-md-offset-2">
+						<div class="col-md-5">
+							
+							<h3>Cras mattis consectetur purus amet fermentum.</h3>
+							
+							<span class="attribute-light">By author in <a href="">source</a></span>
+						</div>
+						<div class="col-md-5">
+							<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit... </p>
+						</div>
+						
+					</div>
+				</div>
+
+			</article>	
+
+		</section>
+
+		
 
 		<footer>
 		</footer>
