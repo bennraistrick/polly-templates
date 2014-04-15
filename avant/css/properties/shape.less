@@ -1,3 +1,12 @@
+
+.border-raid(@rad: 6px){
+
+	-moz-border-radius: 	@rad;
+	-webkit-border-radius:	@rad;
+	border-radius: 			@rad;
+}
+
+
 .circular(@imgwidth:250px, @imgheight:250px, @circleradius:150px){
 
 	width:@imgwidth;
@@ -14,4 +23,15 @@
 	font-family: @typeface1;
 	line-height: 0rem;
 	color: @color-light-meta;
+}
+
+.cta(@border-stroke:2px, @borderfill:solid, @border-color:@cell-green, @radius:@rad){
+	text-transform: uppercase;
+	font-size: @size-meta;
+
+	.border-raid(@radius);
+
+	border: @border-stroke @borderfill @cell-green;
+	font-weight: @weight-meta;
+	padding: 1rem 2.5rem;
 }

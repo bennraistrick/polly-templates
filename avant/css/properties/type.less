@@ -23,10 +23,11 @@
 @size-quote:			2.667rem;
 @size-title:			2.667rem;
 @size-section-title:	2rem;
-@size-subtitle:			1.667;
+@size-subtitle:			1.667rem;
 @size-heading:			1.333rem;
 @size-subheading:		1.167rem;
 @size-content:			1em;
+@size-list-words:		0.889rem;
 @size-credit:			0.889rem;
 @size-attribute:		0.778rem;
 @size-meta:				0.778rem;
@@ -48,6 +49,7 @@
 @weight-credit:			300;
 @weight-attribute:		700;
 @weight-meta:			700;
+@weight-filter:			200;
 
 
 /*------------*
@@ -66,6 +68,11 @@
 @base-attribute:		1.167rem;
 @base-meta:				1.167rem;
 
+
+/*------------*
+* Kerning
+*-------------*/
+@space-meta:			0.167rem;
 
 /*------------*
 * Multicolumn
@@ -89,6 +96,8 @@
 	    padding-top:20px;
 	}
 
+
+
 }
 
 /*------------*
@@ -101,7 +110,7 @@
 	font:							@weight-attribute @size-meta @typeface2;
 	margin:							2.5rem 0;
 	display:						block;
-	letter-spacing: 				0.167rem;
+	letter-spacing: 				@space-meta;
 }
 .attribute-color{
 	text-transform: 				uppercase;
@@ -109,5 +118,13 @@
 	font:							@weight-attribute @size-meta @typeface2;
 	margin:							2.5rem 0;
 	display:						block;
-	letter-spacing: 				0.167rem;
+	letter-spacing: 				@space-meta;
+}
+
+a{
+	color:@color-light-link;
+	text-decoration: none;
+}
+a:hover, active, focused{
+	text-decoration: underline;
 }

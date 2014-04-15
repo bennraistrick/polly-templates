@@ -32,32 +32,146 @@
 }
 
 
-
+// Headers
 .header-1 {
 
-	width:100%;
-	height: 768px;
-	display: table;
-	
+	width:			100%;
+	height: 		768px;
+	display: 		table;
+
 	.img-full("../molecules/photo/background1.jpg");
 
-	.title-1{
+	.shader{
 
-		display: 			table-cell;
-		vertical-align: 	middle;
-		text-align: 		center;
+		width: 		100%;
+		height: 	100%;
+		background: rgba(0,0,0, 0.5);
+	
 		
-		z-index: 2;
-		h1 {
-			font: 			@weight-hero @size-hero @typeface1 ;
-			color: 			@light-dark-hero;
-			line-height: 	@base-hero;
-		}
 
-		h2 {
-			font:			@weight-title @size-subheading @typeface2 ;
-			color: 			@light-dark-sub;
-			line-height: 	@base-title;
+		.title-1{
+
+			display: 			table-cell;
+			vertical-align: 	middle;
+			text-align: 		center;
+			
+			z-index: 2;
+			h1 {
+				font: 			@weight-hero @size-hero @typeface1 ;
+				color: 			@light-dark-hero;
+				line-height: 	@base-hero;
+			}
+
+			h2 {
+				font:			@weight-title @size-subheading @typeface2 ;
+				color: 			@light-dark-sub;
+				line-height: 	@base-title;
+			}
+		}
+	}
+	
+}
+
+.header-2 {
+
+	width:			100%;
+	height: 		658px;
+	display: 		table;
+
+
+	.img-full("../molecules/photo/background3.jpg");
+	.shader{
+		
+		width: 		100%;
+		height: 	100%;
+		background: rgba(0,0,0, 0.0);
+
+		.title-2{
+
+			-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		    -moz-box-sizing: border-box;  
+			box-sizing:border-box;
+
+			background: 		@cell-alpha-white;
+			text-align: 		center;
+			
+			z-index: 2;
+			padding: 30px;
+
+			margin-top: 8rem;
+			width: 300px;
+
+			.center-content();
+
+			h1 {
+				font: 			@weight-hero @size-hero @typeface1 ;
+				color: 			@dark-light-hero;
+				line-height: 	@base-hero;
+			}
+
+			h2 {
+				font:			@weight-title @size-subheading @typeface2 ;
+				color: 			@light-dark-sub;
+				line-height: 	@base-title;
+			}
+		}
+	}
+	
+}
+
+.header-3 {
+
+	width:		100%;
+	height: 	768px;
+	display: 	table;
+
+	.img-full("../molecules/photo/background4.jpg");
+
+	.shader{
+		
+		width: 		100%;
+		height: 	100%;
+		background: rgba(0,0,0, 0.5);
+	
+		
+
+		.title-3{
+
+			display: 			table-cell;
+			vertical-align: 	middle;
+			text-align: 		center;
+			margin-top: 		6rem;
+
+			
+			z-index: 2;
+			h1 {
+				font: 			@weight-hero @size-hero @typeface1 ;
+				color: 			@light-dark-hero;
+				line-height: 	@base-hero;
+			}
+
+
+			.chapter-multicolumn{
+
+				.multicolumn();
+
+				p{
+					color:		@light-dark-words;
+					text-align: left;
+				}
+
+			 	p:nth-last-child(1),
+				p:nth-last-child(1) ~ p {
+				    padding-top:20px;
+				}
+
+				margin-bottom: 2.5rem;
+			}
+
+			a.header-cta{
+				.cta(2px, solid, @cell-green, 6px);
+			}
+
 		}
 	}
 	
@@ -193,6 +307,7 @@
 }
 
 
+// Masonry gallery
 .gallery-1 {
 
 
@@ -277,3 +392,127 @@
 
 
 }
+
+// Newsfeed
+
+// Gridfeed
+
+.grid-feed{
+
+	border-top: 1px solid @light-border;
+
+	background: @cell-white;
+	overflow: hidden;
+	text-align: center;
+
+	article{
+		overflow: hidden;
+	}
+
+	.list-item{
+		padding: 2rem;
+
+		h4{
+
+			font:		@weight-heading @size-heading @typeface1;
+			line-height: @base-heading;
+		}
+		p{
+			color:		@dark-light-sub;
+			font-size:	@size-list-words;
+
+		}
+		span{
+			color: 		@dark-light-list;
+		}
+
+	}
+
+	.list-item:nth-last-child(3n+0){
+		border-left: 1px solid @light-border;
+	}
+	.list-item:nth-last-child(2n+0){
+		border-right: 1px solid @light-border;
+	}
+	.list-item:nth-last-child(1n+0){
+		border-right: 1px solid @light-border;
+	}
+
+
+	.load{
+		border-top: 1px solid @light-border;
+		border-bottom: 1px solid @light-border;
+	}
+	
+
+}
+
+// Filters
+
+.filter{
+
+	
+	clear: both;
+
+	background: @cell-white;
+
+	.filter-1{
+
+		margin:				2rem 0 2.0rem 0;
+
+		width:				100%;
+		overflow:			hidden;
+
+		line-height: 		@base-content;
+
+		li{
+			width: 					23%;
+			float: 					left;
+			margin: 				0 2rem;
+			text-align: 			center;
+			text-transform: 		uppercase;
+			font-size: 				@size-list-words;
+			font-weight: 			@weight-filter;
+			letter-spacing: 		@space-meta;
+
+			a.active{
+				color: 				@dark-light-meta;
+			}
+		}
+	}
+}
+
+.data{
+
+	width:100%;
+	overflow: hidden;
+	text-align: center;
+
+	li{
+		margin-right: 1.667rem;
+
+		display: inline;
+		color:	@light-dark-meta;
+
+		font:@weight-content @size-list-words @typeface1;
+
+		.value{
+			color:@light-dark-data;
+			display: inline;
+			margin-left: 10px;
+			font-size: @size-subheading;
+		}	
+
+	}
+
+	margin-bottom: 4.5rem;
+}
+
+
+
+
+
+
+
+
+
