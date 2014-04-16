@@ -95,6 +95,21 @@
 						
 					</div>
 				</div>
+				<div class="list-item-row">
+
+					<div class="col-md-8 col-md-offset-2">
+						<div class="col-md-5">
+							
+							<h3>Cras mattis consectetur purus amet fermentum.</h3>
+							
+							<span class="attribute-light">By author in <a href="">source</a></span>
+						</div>
+						<div class="col-md-5">
+							<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit... </p>
+						</div>
+						
+					</div>
+				</div>
 
 			</article>	
 
